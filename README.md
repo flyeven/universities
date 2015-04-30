@@ -1,7 +1,7 @@
 # universities
-Contains a JSON file with {uni , country, web_page, domain} for most of the universities in the world as well as  a ruby program for parsing the data
+Contains most of the universities in the world in multiple data formats (including CSV and JSON)
 
-Edit parser.rb if you want to change the output-format/output-file. I have set it up to be seeded into a rails table by the name of universities
+Edit/add parsers if you want to change the output-format/output-file. 
 
 validCheck.rb is used to cycle through the data and check that it is all valid (all fields are != "" && != nil)
-Change this file if you have more/less validations
+Change this file if you have more/less validations for your application
